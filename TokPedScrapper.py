@@ -38,14 +38,18 @@ class tokpedScrap:
         return dataFinal
 
     def toCsv (self, dataFinal):
-        dataFinal.to_csv('D:\\Project\\phiradata\\100DayCode\\TokPedScrapperOut\\'+self.keyword+str(date.today())+'.csv')
+        dataFinal.to_csv('D:\\Project\\EveryDayCode\\TokPedScrapperOut\\'+self.keyword+str(date.today())+'.csv')
         
 if __name__ == "__main__":
-    def get_args(name='default', first='a', second=2):
+    def get_args(name='default', first='a', second = 0):
         return first, int(second)
     first, second = get_args(*sys.argv)
     tokpedScrap = tokpedScrap(first)
     tData = tokpedScrap.getTotalData()
     hal = second*60
+    if second == 0 :
+        hal = tData
+    else :
+        hal = second*60
     dFinal = tokpedScrap.getProductData(hal)
     tokpedScrap.toCsv(dFinal)

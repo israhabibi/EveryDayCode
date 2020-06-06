@@ -14,3 +14,9 @@ Day 1 :
 - add argument
     https://stackoverflow.com/questions/20063/whats-the-best-way-to-parse-command-line-arguments
 
+Day 2 :
+- Improve script TokPedScrapper.py
+- if second argument leave emply will scrape all page
+- create script to scrape kulkas from samsung site
+- use ipnyb version, because there is "More" button need to click before scrape (KulkasSamsung.ipnyb)
+- JupNote.bat is file to run jupyter notebook in LocEnv env
