@@ -20,3 +20,7 @@ Day 2 :
 - create script to scrape kulkas from samsung site
 - use ipnyb version, because there is "More" button need to click before scrape (KulkasSamsung.ipnyb)
 - JupNote.bat is file to run jupyter notebook in LocEnv env
+
+Day 3 :
+- discover use of lambda
+- on process, leaning data and extract type of refrigerator 
