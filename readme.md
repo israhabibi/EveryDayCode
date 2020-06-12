@@ -24,3 +24,5 @@ Day 2 :
 Day 3 :
 - discover use of lambda
 - on process, leaning data and extract type of refrigerator 
+
+Day 4 :
